@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Thu, 30 Jun 2022 00:29:11 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ 42e46ab8b0be55e1474963e38c013b48f6793030de2ed55a8f7cf6419c759b82            15974 main/binary-amd64/Packages
+ a9d7a67e6a27c4ed2a121876e853cb39c5de31d355722655ece09dfdd5162fd6             5906 main/binary-amd64/Packages.gz
+ 42e46ab8b0be55e1474963e38c013b48f6793030de2ed55a8f7cf6419c759b82            15974 main/binary-arm64/Packages
+ a9d7a67e6a27c4ed2a121876e853cb39c5de31d355722655ece09dfdd5162fd6             5906 main/binary-arm64/Packages.gz
+SHA512:
+ d5e20ea71507f23697900a6d1e300d525759efb18627a6dc18204907eafd6f1e63e03b7b2eb3d841abaac7e3d60531c7b1f6ed4022913e8a8e15ae10c7be7c4d            15974 main/binary-amd64/Packages
+ faf9c59316ae924d51a883df578ebbe90037437a33f565464ff31c2b629fb99362a30621930f39860c3818c8b6e47d26d7dda3081ddcb36ee6eff760c33fec88             5906 main/binary-amd64/Packages.gz
+ d5e20ea71507f23697900a6d1e300d525759efb18627a6dc18204907eafd6f1e63e03b7b2eb3d841abaac7e3d60531c7b1f6ed4022913e8a8e15ae10c7be7c4d            15974 main/binary-arm64/Packages
+ faf9c59316ae924d51a883df578ebbe90037437a33f565464ff31c2b629fb99362a30621930f39860c3818c8b6e47d26d7dda3081ddcb36ee6eff760c33fec88             5906 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmK87lcACgkQDtmj34r/
+hz0VEhAAlzyfoIwlYKgFqK1F1qyU3SB6W9yxLpfwrBRgn2pP4lb7hFF7GrWVFs08
+L08K1wnCGDs106XJTXb8Q0rSuA2cdtHSfz2GN5yTObji04EidQenXf17UiuHGRki
+f8Istl9N/lYi13TcFg2ksCj4roLoi2KxVgkZxSbTrQSdZMzRZXDkU5yvbD+HeHLX
+5EXYUcVuWEI+9XD2aH39m7XM6evNCfVpAa2evScqhwFYGuh0G6lcEWTuHl/GuTNZ
+h916KqV3bC1lMVHIZQWHLtAXIWhu7ZAaNpmZVW2bDec5se4U6CKK/7jukK2G1iUE
+4Wax74mKadyc91OTvaR18r4SqDdvul4Y3575oFf7U2eYIrJZNipR2Co6oBRRTLKZ
+KlEg/EjEieqGJRHSoKbyrP9CQ4NVz68TIqPSabecx08du7K16VEuEN8D85WNk8JI
+8pWdQtlkRGxO25ceuJ2za5fPhhtI03fzLua9ADwOVg+QIkrJbzV6CdOYL77W2Zfl
+2I6H7oki7m8j5ADKR6sAgA32F/8FX28gKfh59gdNasU2BegbOSm7U0+HyAmFR5lq
+GoqTqQZFRWp3liwqGoFknw/gzU0MJcNy6pqujUvgZJg620Omgw5GtH6jyj1olWah
+6g0IaBA3zsXho+UIr2IoNCj6KN0EZeVDmNLXpnRHrm3FEQKTGPU=
+=oAJ3
+-----END PGP SIGNATURE-----
