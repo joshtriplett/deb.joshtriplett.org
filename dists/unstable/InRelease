@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Mon, 25 Mar 2024 04:30:04 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ ecdf94691fd91f98ece310eae8b3a6e4dd169e7e02ab479625f945594cc488f2            17435 main/binary-amd64/Packages
+ 0eb74920805fe6b451a0291d31819c24d1d6bf15391683900b87746ef5646a6f             6412 main/binary-amd64/Packages.gz
+ ecdf94691fd91f98ece310eae8b3a6e4dd169e7e02ab479625f945594cc488f2            17435 main/binary-arm64/Packages
+ 0eb74920805fe6b451a0291d31819c24d1d6bf15391683900b87746ef5646a6f             6412 main/binary-arm64/Packages.gz
+SHA512:
+ a719bae08fae79dede535b2a16b0859895cf9ceb2f636d84b5cec2cfdb2a6e5b50c4d13bf7463ead6a0118948452e1f599bca29191f0f6172f733e000ffd36ed            17435 main/binary-amd64/Packages
+ d4c02fa74dd24caac046a7a6ebf3f624d4c38bff896bedb284d569c61b3563826c05e5565e181af9805f51502dd15c307be38805ca71effc08708587b451c2f9             6412 main/binary-amd64/Packages.gz
+ a719bae08fae79dede535b2a16b0859895cf9ceb2f636d84b5cec2cfdb2a6e5b50c4d13bf7463ead6a0118948452e1f599bca29191f0f6172f733e000ffd36ed            17435 main/binary-arm64/Packages
+ d4c02fa74dd24caac046a7a6ebf3f624d4c38bff896bedb284d569c61b3563826c05e5565e181af9805f51502dd15c307be38805ca71effc08708587b451c2f9             6412 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmYA/cwACgkQDtmj34r/
+hz3/PA//VhioLb7nuzZGRi4tQb7yeAXs9+/UzAv2dkSIaZyUMfrNvSRsNDsLasYO
+hBm3c2bEeU0ETfnZx3Kmgzz/5ZvXwkTLxH4MVcLrYPYURvSiOtT5d6NSWijS5q0f
+dhPYARzm1X20+hYpK1ol35mu/yUbl2+Z6x1QEfcIGvBrKustTsfbAGgrI1vnO4JR
+wWEBlY8/sNVarEwEI/LQqEDu2YOw1Ko4ae+MT3uUiKWDgBXoNPNawKg2nvGfAcHj
+5ADIYBXt61pyMr5fQBAXL6AWZS4gygqzEFpWKqk/UthaZwduiEQJntTrRXTDRCi5
+o/SbAPJAPsTJMhLvCQ0+6S+4S9fMfYMiZQ9jCN1g0qxc34bMJpsXfoHiGMP3OiAV
+etMystgXp9Fd3dZ0uHEI5zpmnWEVNP/ltiFWZ5W+vxVEshfQdqJQ9oriNYIrSHxD
+1pH8+v8hkOd9FLw9ep3AcvbL6FYHj1/6xsgThRTmCIknrxOC/dF3ahJwvBoKaZtR
+2IbjaZB+GtwJPrgR49j6XHVHBMH68tEIHNKwy1E8Zu5asyCzuBh/IZtHF+0OtBsL
+ZF91+PPbFduxf72uO+SoU+zyeu7Kh3pyENCuUEQXB9Z6e2S+LG2pygeu1yXB9FaW
+x79YVY11LrOsn5P+pOeqzPjCvAlb0XojORgcogQj/Sd8Bqi2QRI=
+=/f7N
+-----END PGP SIGNATURE-----
