@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Sat, 06 Jul 2024 07:22:46 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ 2001f93926496e5da339b0a7f02722059e1a0359b9d6b18f9abba66f08b782bb            17481 main/binary-amd64/Packages
+ 087391c6801285477b4e454c49689f83af7ee8b98adf263d59d575d6bf60b984             6443 main/binary-amd64/Packages.gz
+ 2001f93926496e5da339b0a7f02722059e1a0359b9d6b18f9abba66f08b782bb            17481 main/binary-arm64/Packages
+ 087391c6801285477b4e454c49689f83af7ee8b98adf263d59d575d6bf60b984             6443 main/binary-arm64/Packages.gz
+SHA512:
+ 0aa2c24d20ea8964eb82cc6d09d8e1c268fc83ef652562a7852715508bd7a2f077d69665292e1020ffe2bebb988ea98bf6a2738bfe64f323cbca147b015e594d            17481 main/binary-amd64/Packages
+ a03299fdc88e5bc3faa605084fc4ca1e766f5f3add11d9e8eef23b85f0899e9b7752a4cecb2fe142d8a4be3a39f4d84d7bef26fbd2490788284f8eacaa666e6c             6443 main/binary-amd64/Packages.gz
+ 0aa2c24d20ea8964eb82cc6d09d8e1c268fc83ef652562a7852715508bd7a2f077d69665292e1020ffe2bebb988ea98bf6a2738bfe64f323cbca147b015e594d            17481 main/binary-arm64/Packages
+ a03299fdc88e5bc3faa605084fc4ca1e766f5f3add11d9e8eef23b85f0899e9b7752a4cecb2fe142d8a4be3a39f4d84d7bef26fbd2490788284f8eacaa666e6c             6443 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmaI8MYACgkQDtmj34r/
+hz0xLQ/+Kt1O3Lkn8Ya21nTpOuhS3fYQclUEeckwoxwrww8wiDknFTLpPARYhCSL
+leW6uBNlaUlhynQJ4HblfrNyLjT3aK65qQx7njHVqlXt3iBvoni+ynMwi7Pap1iw
+vEisQPwclV+BlP7ahsJEBHlkdrUOJmfPVeiMRHty8/lgSAl7CwNoba4DQzeXRYl1
+ObylBMMyKfTDj7h0mmXiI8wVGJONrShFiSRXf0zhoX9n7st6I7i3SO/XABdPw2Ac
+EUy1uD+yjW7RnZvvDJDIxhfRIrnQ9PZ7t+itYi+NN/BTP/FBetpkDrPaMESmSWVH
+20Za4lH4HnGC8UMIfdNWZXqJSkU546wzBB/h4uUrKlMBfOjtHmj0TlQZUColMeTF
+kHJL1FaDzfG2yN+3mL7OS26zGh/ftmXLVZAKbWgSc9r8P4pXAm2M+XOQxsrDdA7D
+0+QKMItAGwOVT4E/5xVz/bYyccT1BX0iBFIrbYutri4iyHPwetTeJ+EiAYn1/XoU
+ro5cYbJQWgckpmhx7MDFLjoFt/UAy90SZUtcjvKeYddkfRQ35AxCtEbxfBjc/e4l
+r2Gtcz+jASipdPb7e58K9bUc0rF1uN+w6BYIJtWOK29Arj2YPHuX2g+yHujLF8Bi
+M7bkssHD6KXOkjQ2uskNc7Ra2SGLEvSP40CYyIAmXH2cTNU7wJg=
+=3lqt
+-----END PGP SIGNATURE-----
