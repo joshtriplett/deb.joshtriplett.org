@@ -1,0 +1,394 @@
+Package: josh-apt-source
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 18
+Depends: ca-certificates
+Filename: pool/main/josh-apt-source_216_all.deb
+Size: 5140
+SHA256: 2baddeca42cff58ba7b0cdedd39fdf2e0bcd86a8f4098c1298f84b7de2cf9aa3
+SHA512: fbede7b76a0ae3adf365ad366a91e6c28c9004926e632a5e5c61bff98638a32fddf8c0ed31afa2f3b2e2c0544d0754d5ec5705eedea13d945cde1473de4c854f
+Description: Josh Triplett's Debian package repository
+ This package contains the APT source and archive keyring for Josh Triplett's
+ Debian package repository.
+
+Package: josh-backups
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 22
+Depends: restic
+Filename: pool/main/josh-backups_216_all.deb
+Size: 3060
+SHA256: d37503a5e1765e0df7ed197d77d3e79c0f017cf919e99b9a04b3b91f899b6739
+SHA512: 2929912ca90a2b67ea883219455069626ea7d9101f6f69ddde2ebaf84cb81249f444a8aa81e0fc9cde51862cb7b7d1efb4cefb34e0330fc35a704a330587b628
+Description: Configure backups to AWS
+ This package configures backups of /home to AWS. After installing, create
+ /etc/josh-backups.conf and write the AWS secrets to it.
+
+Package: josh-config-apt-listchanges
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 13
+Depends: apt-listchanges (>> 3.22)
+Filename: pool/main/josh-config-apt-listchanges_216_all.deb
+Size: 1728
+SHA256: 96ad0f3b54b0f3d7629c63c119de31b02494e75f2b462115f997585005a70d2f
+SHA512: 0d594897036699b7be790efca386c565e02ac86bdb48947d05425f613649aae75e2f44e90bb8c895d3267cbfb704b6d21513705353e8eafb20f04ab80f622d7d
+Description: Configure apt-listchanges
+ This package installs configuration for apt-listchanges.
+
+Package: josh-config-apt
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 13
+Filename: pool/main/josh-config-apt_216_all.deb
+Size: 1884
+SHA256: 7b3667d6d464d7295542d84651f02c98193edbf7ff1c588476d6627e58d76748
+SHA512: 622e5582e9c60ca8714549e285ea4e1a7d2c7dac323f2efdbe4160f2d45c806330acdb912228df3b3c0a124e6747747412e3171a8145d2d2c49e0aa801e48df5
+Description: Configure apt
+ This package installs configuration for apt to not install Recommends by
+ default, to not keep automatically installed packages installed based on
+ Recommends or Suggests, and to not fetch icons or appstream information.
+
+Package: josh-config-beepless
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 12
+Filename: pool/main/josh-config-beepless_216_all.deb
+Size: 1724
+SHA256: 6b8b8b89497664f42d9e136b1c88d038381a86c1e8f6bf9ab10cb1cf6b1ad564
+SHA512: 279328b8c2ff8fb8913033c8753716f84f2dd4c83ac5bdb811818d9606026c519a3d08ed997dd984d46f0c77d6a225a80cc25a62ab26ee7db34f7fb674239a88
+Description: Make your computer stop beeping
+ This package prevents the Linux kernel's pcspkr and snd-pcsp drivers from
+ loading, making your computer stop beeping.
+
+Package: josh-config-disable-services
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 26
+Filename: pool/main/josh-config-disable-services_216_all.deb
+Size: 1972
+SHA256: d937c9fb5d05f56c9a66dfbbae5e16e607931753066d2c7d31d1a847c9c71854
+SHA512: 218813952d69e118f3d6d1b218eb2759fcd0d69098d7e64c6a16b87b4c2a9df0213e5a9525fe0a78458c92ebf9079b651982a1e35421b4311d43bbfba73fabea
+Description: Mask various unwanted system services
+ This package masks various unwanted services by installing symlinks to
+ /dev/null.
+
+Package: josh-config-grub
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 14
+Filename: pool/main/josh-config-grub_216_all.deb
+Size: 1784
+SHA256: ea8aa9540e3142ea1ba2e9bc4a0f6dc3e74bf2e9f0050b5fe51b7d2f1d8b7d97
+SHA512: 2365a185fb086cf3a06561a06487f6cebb07b6bf3a9899e1ceece6be813e16b38e0d76c5a5c193b5b38e153d2c1f97d4b94496ef1e753c1fd89db95d893bf403
+Description: Configure GRUB to disable graphics
+ This package configures the GRUB bootloader to use text mode rather than
+ graphics mode.
+
+Package: josh-config-journal
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 13
+Depends: systemd
+Filename: pool/main/josh-config-journal_216_all.deb
+Size: 1688
+SHA256: a5fed1c51e2f200d89eabe81fcde6bf9a4292b6a65f3971abaaf79c858135698
+SHA512: fe0e380c627ac61aeb89f2f1f5490253ebed17b2dc1ac1a4e10239c7e352ebb28c9d274925769e508d8fd1693a713cbad8e9ec84b82dd8bb94fe192480465286
+Description: Configure persistent systemd journal
+ This package configures the systemd journal as persistent.
+
+Package: josh-config-logind
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 13
+Depends: systemd
+Filename: pool/main/josh-config-logind_216_all.deb
+Size: 1724
+SHA256: 047c27d718b6a264ba152399b34e402d03a8b50c3947131fe0dac5cc10d95b96
+SHA512: 5266585ae42d314f7f61654d5bbb756c9b450b532da83280b32bae9aad870684d3c57dabde8af8e4cf6a91b62d9192f44ca0fb21ddf24be9b33ac2ba6481f614
+Description: Configure systemd-logind to not suspend on lid close
+ This package configures systemd-logind to lock the screen on lid close, rather
+ than suspending.
+
+Package: josh-config-nm
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 13
+Depends: mobile-broadband-provider-info, modemmanager, network-manager, wpasupplicant
+Conflicts: ifupdown
+Filename: pool/main/josh-config-nm_216_all.deb
+Size: 1752
+SHA256: e746b0bef37a2aec6eacbc9b828493d8084be6f076ee293f99905ffff954b7ab
+SHA512: b8109f8643335026001aa82400c6e4fe12d3ceaa503ee2415b213ab2170e998edc3331cfce96f57bc314f4ea0dbd6d322592b7fe982a93a0de9330982bf5e221
+Description: Configure NetworkManager
+ This package configures NetworkManager to disable the ifupdown plugin.
+
+Package: josh-config-path
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 12
+Filename: pool/main/josh-config-path_216_all.deb
+Size: 1692
+SHA256: e5b0605bc14dc899cc1f0eaa34b5deb489f459f31e038c42315e084cedd38bc0
+SHA512: 249b20891ad7d148f69b45b9a59f358ccaf10eba8aec08a9f3426b3d6a1fb89a20349a735e2cbc76651bb77011c4fd46f0c9f4720d611449f651528181ebaab8
+Description: Configure the default $PATH to include sbin directories
+ This package configures the default $PATH to include sbin directories.
+
+Package: josh-config-policykit
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 11
+Depends: polkitd
+Filename: pool/main/josh-config-policykit_216_all.deb
+Size: 1812
+SHA256: 5f1ccaa7036c1d08cc6a412519ff70597dd2dd44615030801fe5cc76a54c1772
+SHA512: d544df6fd183c60d8623b03c8f7dd3daacb0e9750d92ddd83fe4e26c596c3f15ed62ba19331d88b9afdc1aa5624b176b7af3d39d64fa6973ab6558b59d99f043
+Description: Configure PolicyKit to allow group sudo
+ This package configures PolicyKit to automatically authorize members of group
+ sudo when logged in.
+
+Package: josh-config-sudoers
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 12
+Depends: sudo, josh-config-path
+Filename: pool/main/josh-config-sudoers_216_all.deb
+Size: 2092
+SHA256: 99de64c69f881b156949f34cc2dc2d054cf9c0edfed552f81d5d891ca909bb18
+SHA512: e21f99a1b2b8e496f1a4e37e430f586ddb55c813477e006fb494672da4f93767a929bb591215e67c814c81d7050f630675079a7bf189e7b56e8fe3cec9e4ccec
+Description: Configure sudo to allow group sudo, and preserve $HOME
+ This package configures sudo via an /etc/sudoers.d file, to allow members of
+ group sudo to sudo to any user or group without a password, and to preserve
+ $HOME across sudo invocations.
+ .
+ For this package to work, /etc/sudoers must "#includedir /etc/sudoers.d".
+
+Package: josh-config-tpacpi-leds
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 12
+Filename: pool/main/josh-config-tpacpi-leds_216_all.deb
+Size: 1788
+SHA256: 782f86fe0fd420730ae76dbac171a09ed9cd725d0a40e82c8e5f432afd43a2f8
+SHA512: 9ea002ee0ddb33ff23238fab28b562f50b6414226a037a63c04d82a7db559069ac38bbe171dd3c4d9263410dd19983174640f988c1e90c37ce3dd133b600f827
+Description: Turn off ThinkPad LEDs on startup
+ This package installs a udev rule to turn off ThinkPad LEDs on startup.
+
+Package: josh-core
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: acl, adduser, apt-listchanges, apt-utils, aptitude, bash-completion, bind9-dnsutils, curl, debconf, whiptail, debsums, file, git, gnupg, htop, inetutils-telnet, iputils-ping, less, lsof, moreutils, ncurses-term, neovim, openssh-client, procps, psmisc, rsync, screen, sudo, time, traceroute, tree, tzdata, wget
+Conflicts: vim-tiny
+Filename: pool/main/josh-core_216_all.deb
+Size: 1744
+SHA256: c53f3ebd88e7a02c2aea6a8ed916bd6ae54f891f298417ba7a242106c1e43a8c
+SHA512: d75f263b17a09793b1a2ded07cccf1f584288bdf9f3878f34deed4c63c76370e7f71bfd9af0cca6b9e01ec97f9b12f8d677eae46fd70304d199b87cb3adfa2cc
+Description: Core metapackage
+ Depends on core packages suitable for any system
+
+Package: josh-dev
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: autoconf, automake, build-essential, ccache, colordiff, debhelper, devscripts, libparse-debcontrol-perl, libsoap-lite-perl, libwww-perl, dh-make, diffstat, equivs, fakeroot, gdb, glibc-doc, libc6-dbg, libncurses-dev, libtool, lintian, ltrace, man-db, manpages-dev, patch, patchutils, strace, valgrind, vim-fugitive
+Filename: pool/main/josh-dev_216_all.deb
+Size: 1716
+SHA256: bd7582b49421928318cb283ba00f541b7942358b59cbea6b59ab41bd4f47b882
+SHA512: 43898de117b6f1c612de32682c6db254d4553ba7abbed343fb7071d4cbd0e6ffaa4561dc9be8232c7c59639bac1fc88e4ec8226ba789bb831b7d7e2f44e1236d
+Description: Development metapackage
+ Depends on development packages
+
+Package: josh-full-dev
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: josh-dev, autogen, binutils-multiarch, bison, cmake, crossbuild-essential-arm64, debian-policy, flex, gh, just, libelf-dev, libgit2-dev, libssl-dev, libtool-bin, linux-perf, meson, musl-tools, nasm, ninja-build, pkgconf, python3, rustup, wabt, xsltproc, zlib1g-dev
+Filename: pool/main/josh-full-dev_216_all.deb
+Size: 1720
+SHA256: 5d4ebfb58fe8a09bf56c3ecf1ab04dd1542a81168194dc4b01ff6bafd1955605
+SHA512: f01be74d46c774d3663839bd8ca832e739659652745994d07ab07b7c8642e4047714e9e95316f61d5a2bdddaea3f76bf55301986465efafe9bd3ca86b7aa3be9
+Description: Full development metapackage
+ Depends on a full set of development packages
+
+Package: josh-full
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: josh-core, acpica-tools, an, attr, awscli, b3sum, bsdextrautils, catdoc, dctrl-tools, ddcutil, debian-goodies, dict, dmidecode, dosfstools, dstat, enscript, extlinux, syslinux-common, fdisk, genisoimage, git-delta, graphviz, groff, html2text, hyperfine, info, iperf3, libinput-tools, libjpeg-progs, lm-sensors, lz4, man-db, manpages, mmdebstrap, arch-test, qemu-user-static, mtr-tiny, mutt, netcat-openbsd, netpbm, nmap, offlineimap3, pigz, poppler-utils, pwgen, qemu-system-arm, qemu-efi-aarch64, qemu-system-x86, ovmf, qemu-utils, qpdf, qrencode, rename, reportbug, rlfe, scowl, socat, sqlite3, sshfs, tcpdump, tftp-hpa, tofrodos, tsocks, unhtml, unzip, vim-scripts, wamerican-huge, whois, xorriso, yt-dlp | youtube-dl, ffmpeg, zip, zstd
+Filename: pool/main/josh-full_216_all.deb
+Size: 1968
+SHA256: e2f812ecd14d97655788e53ce2380a0d11de8679c5de1831597c2effe66ec7d1
+SHA512: 2baeaf3209636d134360021b4f173e96658c4f0d880e1d9b351e2e71c1941109690de5311e44953f81cf71f6b1f89631802b4f093cc727063951a930e4e01082
+Description: Full metapackage
+ Depends on a full set of packages
+
+Package: josh-gui
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 11
+Depends: alsa-topology-conf, alsa-ucm-conf, alsa-utils, aspell-en, audacity, avahi-utils, cups, cups-bsd, cups-client, foomatic-db-compressed-ppds, foomatic-db-engine, ghostscript-cups, printer-driver-escpr, printer-driver-hpcups, openprinting-ppds, firefox | firefox-esr, fonts-crosextra-caladea, fonts-crosextra-carlito, fonts-dejavu, fonts-inter-variable, fonts-ipafont, fonts-liberation2, fonts-noto-color-emoji, fonts-urw-base35, fonts-vlgothic, gimp, gitk, gnome, dnsmasq-base, gparted, gtk2-engines-pixbuf, gucharmap, hunspell-en-us, inkscape, intel-media-va-driver, libasound2-plugins, libgl1-mesa-dri, libnss-mdns, libpam-gnome-keyring, libreoffice, libreoffice-gnome, libreoffice-gtk3, libsane-hpaio, mesa-utils, mesa-va-drivers, mpv, pdf-presenter-console, pipewire-audio, qemu-system-gui, quodlibet, rtkit, sm, wl-clipboard, x11-utils, xauth, xdg-utils, xfonts-scalable
+Filename: pool/main/josh-gui_216_all.deb
+Size: 2084
+SHA256: d7b9d7d8af74e8300bb8b53113ecb6b941a06f9832cf9c4ea00d26157278a738
+SHA512: 040b7ba6450cf57e37e5e7208dd9f48a7bb8943ea5e4bd402b1e1638fbca97da10ce060fe4b66eb48dc0837b086372f8064505dd8cc1ba88a04e375948cdc39c
+Description: GUI metapackage
+ Depends on GUI packages
+
+Package: josh-ikiwiki
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: ikiwiki, gcc, libauthen-passphrase-perl, libc6-dev, libcgi-formbuilder-perl, libcgi-session-perl, libfile-mimeinfo-perl, libimage-magick-perl, libtext-csv-perl, libtimedate-perl, libxml-feed-perl
+Filename: pool/main/josh-ikiwiki_216_all.deb
+Size: 1640
+SHA256: 6bfc2fbf62cc42a0283f56a8d42bdee87f2dab7cb82cc33ce737f052f8343033
+SHA512: 41b99dae4a2da0c527d6b803c995b7d4ca7c7178780f466d248e69cf00e7044601da85d3472cb6abfbb203c4a1ea84f79457c5d6603bf9f8cfb3fb67435d4412
+Description: ikiwiki metapackage
+ Depends on ikiwiki and supporting packages.
+
+Package: josh-provides
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Provides: gnome-remote-desktop (= 1000:1)
+Filename: pool/main/josh-provides_216_all.deb
+Size: 1616
+SHA256: 5df26196ba23385dcefa9a04b60047ca7286f4cc0416105023ed2679a340fd57
+SHA512: d44a2db562f1756a99b8a0c37a2fef3b4cf55c6e8e56aeb6291a9b8b2a1c98560c7f1841bb444c4b5115d7e97fa954a3805bb85ae793e077a7a2a13c05485f22
+Description: Provides no-op stubs to satisfy unwanted dependencies
+ This package supplies Provides for various unwanted packages, to satisfy
+ dependencies on those packages.
+
+Package: josh-ssh-server
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: molly-guard, openssh-server
+Filename: pool/main/josh-ssh-server_216_all.deb
+Size: 1564
+SHA256: 4795bc2483ba6fbf9904b9f1ef4a0c8cec40b4e4d086ddf228caff15dc5ca1a9
+SHA512: 90c8fbff0eb9af6751340ae5872fcd98bb1141bfdf9d1de8d3406f0ec59dff489bbf47dd295e90895e261eb4dc21982ed755c8ec5f7cb58fac3426469435c5b2
+Description: SSH server metapackage
+ Depends on an SSH server and supporting packages.
+
+Package: josh-sys
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: bolt, cryptsetup-initramfs, efibootmgr, fwupd, fwupd-amd64-signed, grub-efi-amd64 | grub-pc, ifupdown | network-manager, isc-dhcp-client | network-manager, initramfs-tools, busybox, iproute2, iw, josh-config-journal, libpam-systemd, linux-image-amd64 | linux-image-cloud-amd64, firmware-linux-free, linux-sysctl-defaults | systemd (<< 256.2-1), net-tools, pciutils, powertop, systemd, systemd-timesyncd, udev, usbutils, zstd
+Filename: pool/main/josh-sys_216_all.deb
+Size: 1764
+SHA256: 1e93b330f6258e755f7d71be6160904ebf8c0875370d4e9c003c3307e173c41e
+SHA512: de788e79f3f990bf8965682bd3dbd8dcd77b0ee812aa03a676e96960f7b14bd1c0c46b610d9901f435d90eb63e5f49d17a8e5b08823f5b0b47562d58ce7778dd
+Description: System metapackage
+ Depends on system packages
+
+Package: josh-tex
+Architecture: all
+Version: 216
+Priority: optional
+Section: metapackages
+Source: josh-meta
+Maintainer: Josh Triplett <josh@joshtriplett.org>
+Installed-Size: 8
+Depends: texlive, texlive-bibtex-extra, texlive-binaries-sse2, texlive-latex-extra, texlive-latex-recommended, texlive-latex-recommended-doc, texlive-pictures, texlive-pictures-doc, texlive-pstricks, texlive-publishers, texlive-science
+Filename: pool/main/josh-tex_216_all.deb
+Size: 1596
+SHA256: f48b6b69f558b1d9fac6b8d3a52d40d8091996950607c39a6ef5bee9d5c7c08a
+SHA512: 004ce6ef0999640475f8213e37e9ff9a9c0237bedbd1a05d14f0520f761c44516aebde86e7ca933158a1a45faedbc3e5ca7f0a8358677b83d2ecafe88bde7a18
+Description: TeX metapackage
+ Depends on TeX packages
+

@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Tue, 22 Apr 2025 08:57:42 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ 21aebfad9fa49cb57ebb034b3097ca23040d6e79df9d7a6dbe1a51e8983c3013            17744 main/binary-amd64/Packages
+ f3a99ea2a39388921b212ecdaf29659909442f1baad7bc4ab227ae7f8721b163             6566 main/binary-amd64/Packages.gz
+ 21aebfad9fa49cb57ebb034b3097ca23040d6e79df9d7a6dbe1a51e8983c3013            17744 main/binary-arm64/Packages
+ f3a99ea2a39388921b212ecdaf29659909442f1baad7bc4ab227ae7f8721b163             6566 main/binary-arm64/Packages.gz
+SHA512:
+ 6fa4ec05a11f071a0da3c05eaa756f7ff55aa93d1cff7a1cdcb0ba8dcbb34bb59146e722be0f5dbfb9ecbf1cf76707ae732ca48ba22f074f85f86e81ed6ea0e1            17744 main/binary-amd64/Packages
+ 7256dcd6b62c897a35a389408406b38c17595d350bf0bd998bb28e4f72b6e1a0ae2484b534eaa4c09e6e7d248f70868f245cc8dcef0e5f422e9e0fd8e2295e8e             6566 main/binary-amd64/Packages.gz
+ 6fa4ec05a11f071a0da3c05eaa756f7ff55aa93d1cff7a1cdcb0ba8dcbb34bb59146e722be0f5dbfb9ecbf1cf76707ae732ca48ba22f074f85f86e81ed6ea0e1            17744 main/binary-arm64/Packages
+ 7256dcd6b62c897a35a389408406b38c17595d350bf0bd998bb28e4f72b6e1a0ae2484b534eaa4c09e6e7d248f70868f245cc8dcef0e5f422e9e0fd8e2295e8e             6566 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmgHWgYACgkQDtmj34r/
+hz1HRBAAo5Ga3NeDgUcnOi7a9GlGtpCAhyKQw+Qb8t0NDpqK/OKM28ukMNpnR3RU
+D196dYvrI1nlxQFmUsfmbSEE1KdTfCBw26kZhOf5aVZa2c8/ir9XxZy0uuwu+Igr
+uaONKBuCy6rwAiTuW4VPY816Q4fj/hs4IKlk3Z0Yk3wUuS4nXPkFmc/yZHHHCBC2
+oZrtA0QPvJwXR1ahlq5YIEbaNO/Z2qFTXKvFUIDZAQPHVENO7ZqmhwrQYIOI0t/Z
+yTY4tT3ntlmpcwkOMxIqUXsJCZkvbaHFVBobuBqYvSaVkW7chHuguZHRchGZJLGm
+1aMjZu4kd35wow6jsSPQNCvPn0leHqt/YikIlmcCRLW7N1YgDeeHkXKPY57pwAlZ
+PFmDySLROKbzQP+FO5jnuDfrwBkFhJEXFb1pDbYKYeRUmHRszYATkJF/qSEUu9mM
+tPQUzZLLUWkLspKZnSLtI0tgR5eoGVGF7LdOgBPxDd7qL3zbh4pyyUxwTKccwz5T
+VMxFSH6SrqDIjp/yCydzontBfAx0J+DqoimWiqep2FjCsIoSt7+7Oery5Sifqi+8
+1kQUqfeyuo3Sj7cUIiBBcBSA2q+Y5tgnczY9Fy6YqFK0tStd5Uezqu08WSwGwW8j
+cbD7PlMPlFSscx93mjL1vGszJ5SHOUwPdGzsbot17vIjkDG/dhs=
+=J8lC
+-----END PGP SIGNATURE-----
