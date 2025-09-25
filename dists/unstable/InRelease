@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Thu, 25 Sep 2025 11:20:08 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ d80144b3ff8ce48b0176a65442c649c0ffe792043e5fdacf5252f89c560c536c            17114 main/binary-amd64/Packages
+ 9a58382ed2eef6b60f926cc704fc21f46f0642e67963bfec27f03c0be2000388             6349 main/binary-amd64/Packages.gz
+ d80144b3ff8ce48b0176a65442c649c0ffe792043e5fdacf5252f89c560c536c            17114 main/binary-arm64/Packages
+ 9a58382ed2eef6b60f926cc704fc21f46f0642e67963bfec27f03c0be2000388             6349 main/binary-arm64/Packages.gz
+SHA512:
+ af8dd78d236f76a76720818687884a9aef01a8aedfc077c3995a902fe9b70a8885ef02e2bc0539bcb82c717c1a1b000f8667db5ffe26dfdead5a9469b2a64572            17114 main/binary-amd64/Packages
+ c5750b4212dbc51099bc943097120e125c54a33f191a12eade161010e5e49ccf92fea5d9a66bc570e583b52779c4e6e800cad56ced375050c2976f8a5bcf6369             6349 main/binary-amd64/Packages.gz
+ af8dd78d236f76a76720818687884a9aef01a8aedfc077c3995a902fe9b70a8885ef02e2bc0539bcb82c717c1a1b000f8667db5ffe26dfdead5a9469b2a64572            17114 main/binary-arm64/Packages
+ c5750b4212dbc51099bc943097120e125c54a33f191a12eade161010e5e49ccf92fea5d9a66bc570e583b52779c4e6e800cad56ced375050c2976f8a5bcf6369             6349 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmjVJWgACgkQDtmj34r/
+hz2JAA/6AsdBmrOciytAkEj7ZvwrQntyiJuT+SuGTetj9MYo2l90ZwYftNzKWShc
+JqlHXw2X6u2jQIzOPCxoLtScsnj8bTfzrssLZk3+jsBorSjNXYsnfYaei7VpXXDs
+7z5tE3zUnbqxbttWvkgcTcKS6F0cdwoDdXUGqjjsIyUfw3sJigVy3zTnwxLfU87B
+ESNI/EJxou+Oe+pYF/O05Zi+bumUwE9yb2qeWVf1uEKWjxqYl5WFG1l40TlddG66
+Zy568iMfr9PL7LM5mba2WJfIHWv6WrKSEPWWH/jotgey7lRtnN31B1vo6ewZCj5N
+kQUd/nzvsdw7lyfBUQbDQJXpJWyt1CJq+CpSz2mVjoYOpB+cIfl3w9JOXlyJ8Uq7
+mK+IzFCG/fsoH1xY2PRozc8x+sLQX7R/Y9m4yRW+qWTsbn07AXXUTf8mcjZvJs4B
+xePVgL6Oq1PWV8Tjk6WeXajOWKENqlNKMtYaJfti/GJXC6lhTIrBjoIfXM1VVJ/M
+UoJ7s7nZv5kXy0zr2Yz+3+A/wuJcafwPi2q4qDNWu1qqYWytv2z7Rj0SW2R55ceb
+juy0MdXeUt2oo1XOmRlkarexXvtjokL3HtIA7IGcVlx/mrBtdKBTYb3VsvhLoGvw
+gF1mwv1lQ4HR62J4fHRd1ZeM08dJtJMU8GIR2sumkakhW5Xzyqw=
+=Jkxm
+-----END PGP SIGNATURE-----
