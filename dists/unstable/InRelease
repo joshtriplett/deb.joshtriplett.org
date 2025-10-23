@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Thu, 23 Oct 2025 05:23:07 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ d7ad3acd221a650b4afdb65ff6d57a1aa4fde1e9e00499c8151c24b4f88fb279            17107 main/binary-amd64/Packages
+ cad075c4fdf6ae7eed811a893573676283895cd99c9148918df2238cda1ca6be             6352 main/binary-amd64/Packages.gz
+ d7ad3acd221a650b4afdb65ff6d57a1aa4fde1e9e00499c8151c24b4f88fb279            17107 main/binary-arm64/Packages
+ cad075c4fdf6ae7eed811a893573676283895cd99c9148918df2238cda1ca6be             6352 main/binary-arm64/Packages.gz
+SHA512:
+ 48a9f46caf331624819d1b52bae03203999cbf43033f1a887f74f5fbed7f42edfcce8d99343850b6df8896b24d9077399254517da468671896a8d100adb70756            17107 main/binary-amd64/Packages
+ c9e1a41be28e12a5aa30e73711ed544280e1be42b284fdf26a493ced8a0dc06c16995c5ddbdbdc4dbbbb47eb91ea6a3f2bd188ec50060a9397e55467c079b6e1             6352 main/binary-amd64/Packages.gz
+ 48a9f46caf331624819d1b52bae03203999cbf43033f1a887f74f5fbed7f42edfcce8d99343850b6df8896b24d9077399254517da468671896a8d100adb70756            17107 main/binary-arm64/Packages
+ c9e1a41be28e12a5aa30e73711ed544280e1be42b284fdf26a493ced8a0dc06c16995c5ddbdbdc4dbbbb47eb91ea6a3f2bd188ec50060a9397e55467c079b6e1             6352 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmj5u7sACgkQDtmj34r/
+hz0SZQ//fut96FMbRv+Yn0+cCppnSFXcVAfoRamJjL/vP97DyiV5r2Gq/ARLp4sU
+CKd9nfgu6AYUtngZOUD86IMkzkPUhZv/umLYG9vtIGp/UZlttQto7RrqjPFWCVAN
+AHkRGEQjh7YkEBL94bDBrC7AQ+IwsSMGNDKfSGm9+SQ6vTLoKx9RvecEkl4Z/N+6
+dky5RyEY6fCUs+av404RRuOrutn4WatttmazjoWotXNRhwfH2iYZg8GPHHk6xb9R
+A4RKT4RcSgxRuc7LPVdunxIrVUvDpN1aPXS3s3vPQZxWQa5FwJjVDCU1wQyRojJK
+mTBxoj7aLUsRhKuDYkAz0IPDHzeV5thC3atKb0FqwE4D4NpRzdmZk9cYoSs08Rp9
+KRs3pn3s5ttwLcIbgcRozbS5JXjfYyuyzzkZryuORplMel18wHEqvhxzG5SmUQJi
+WfpWwKTQ7xR/nYneMnSdhW0UN64HeDmygYZ8WqlOCthjWLZWgJMGdydWTnisvurg
+MTMDfuNkmhWN4roUOmrGr+WRw46p9etQ5O8Ui9loS12UHyiE88bm8dVQGfVCTonL
+uuQFtdsTEPrnYSD3p3xFsFik1P0JwZbDdjblC7amO20kCtrEwfxp3MV9+upTS91u
+D4007GP/MClMVcWs86FIXEEThjvOYPUIAeXB7D5gajHZCoAjh0A=
+=sA/m
+-----END PGP SIGNATURE-----
