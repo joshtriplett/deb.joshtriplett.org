@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Mon, 27 Oct 2025 20:43:24 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ d21ed36ec72849e3bf3b4c9dfa2c0a1b710042d6dd8dab4b86f4fd9b19f3e1d6            17123 main/binary-amd64/Packages
+ bec107b4304b31b44a0de90f58a34563593ede6d9e994a6ad0fdd54fe3677d0b             6352 main/binary-amd64/Packages.gz
+ d21ed36ec72849e3bf3b4c9dfa2c0a1b710042d6dd8dab4b86f4fd9b19f3e1d6            17123 main/binary-arm64/Packages
+ bec107b4304b31b44a0de90f58a34563593ede6d9e994a6ad0fdd54fe3677d0b             6352 main/binary-arm64/Packages.gz
+SHA512:
+ 7cbc5feb36f69e026d8a93736c8a1cbed6b562966ee6e40346bad5a9abce751f353fd7d3a00cac2ff10335224320ca225eaf56a39f4c90fbe40406b420d693c9            17123 main/binary-amd64/Packages
+ 9dfcc0aa3ef3d6156b7dc2fb91a5e5d9265c2deb3d8cbf84172247acb3227019deecd7662d8cc2baa6f41ad3e3ed30176831a52ef677e5284a85f3efbfca40e6             6352 main/binary-amd64/Packages.gz
+ 7cbc5feb36f69e026d8a93736c8a1cbed6b562966ee6e40346bad5a9abce751f353fd7d3a00cac2ff10335224320ca225eaf56a39f4c90fbe40406b420d693c9            17123 main/binary-arm64/Packages
+ 9dfcc0aa3ef3d6156b7dc2fb91a5e5d9265c2deb3d8cbf84172247acb3227019deecd7662d8cc2baa6f41ad3e3ed30176831a52ef677e5284a85f3efbfca40e6             6352 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmj/2WwACgkQDtmj34r/
+hz13DBAAwB2X91o9l6s93Hx8cFGn0/SySFv6tETVoyh/CuRwXoIRtIIj8X9Nzw9s
+BLwnJsS+DjBVc5EhvgJVa8vMQC6SIzb5fTyVPm7qV3a/cQpRUOtD6/cd7mggIw8t
+9jJDVSRVlF7vuhrOHiCFQ0h7B7MTAh5GiUyclluiPG1lS70qa3JHNep8noxD26jG
+qzz0him5S5R1PWOQVmiwQhMQHBDw/GO9AOCtDO8hdq8nJek0/uYTHiUQa6gx7lPQ
+344FowlZj4RHtwMkT9ISGgW3tUWuiXh1CEfDeyjs+B/y86jAnwBghXIkuAi3qvTF
+jlrb10WzeUDuXLpyBEsTjpMyLJbdcqfyn0uermIbmlJRwt5prm7hFN2nTzHfDJw0
+ng7i2QZcpIHNauzCprTpme1IUvEV9oJ246T3A2ZCYHWPQZl9bmFRB0JHwVTLNqDa
+Y0AeNKkF2++1Ugr532Y5l9Etw/HIPpPQqulbLfezP1n0iGRBdx8rGcrmNcgWVLwW
+M43bNqBNqZEWk/fEpj4UvseFMUqfKekSqUa8LmgYWUaFps9vbQ27LGB6dp/RLEgE
+jciPB/zBKDhTTBBCOBg0fK4qPQkvjMSoHPMkSG074kvT3YKv/FkWJ/6dKGk8z6Yb
+4oDU54uyQR1e3zmtjWEcLsvnWbrhsQFLpUhYfDpwbbd3jYi/7to=
+=dW/z
+-----END PGP SIGNATURE-----
