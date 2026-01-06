@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Tue, 06 Jan 2026 22:56:44 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ 4bbe1f490b2544c88c9ae6ed74fef2cc298c3b633ed7d39d827862f48b27788e            17138 main/binary-amd64/Packages
+ d83bf77fdb4490f651527eec4738ea5c6ce6cbf7e766cd792efe1f51edc8aaab             6355 main/binary-amd64/Packages.gz
+ 4bbe1f490b2544c88c9ae6ed74fef2cc298c3b633ed7d39d827862f48b27788e            17138 main/binary-arm64/Packages
+ d83bf77fdb4490f651527eec4738ea5c6ce6cbf7e766cd792efe1f51edc8aaab             6355 main/binary-arm64/Packages.gz
+SHA512:
+ f5041184fdd7b1d1bb140956943516bc376933e079b1105a5c10235aa7387816eac2c4820bfd325f0477c98b3d796fab25e36c451b3fda27cc11c463be54adda            17138 main/binary-amd64/Packages
+ 323f5b3db36dd61dfbde76d447d582fc06fc14671677af8a1e25a4402c0266903307d4177d1d3937b04aa99a549c9ff6e8db68ea341a3dd784e30a61dc807fa9             6355 main/binary-amd64/Packages.gz
+ f5041184fdd7b1d1bb140956943516bc376933e079b1105a5c10235aa7387816eac2c4820bfd325f0477c98b3d796fab25e36c451b3fda27cc11c463be54adda            17138 main/binary-arm64/Packages
+ 323f5b3db36dd61dfbde76d447d582fc06fc14671677af8a1e25a4402c0266903307d4177d1d3937b04aa99a549c9ff6e8db68ea341a3dd784e30a61dc807fa9             6355 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdY5QQuOXS6M6nB5nDtmj34r/hz0FAmldkywACgkQDtmj34r/
+hz2uTw/+KPhNZX6QVhzDQv3Ku1CsNuMlHgKrHAEBuyFEndqQWqe7p99CwWcFX4YC
+zSuLRM3F/xXQOVHrStdp3o8lfaAjrD0FqFV3MRr7iYBzttq7IzV6W/Tlg0BXLTjN
+fGEI1Wp3xJr9VSsleaH0eJeIHwlcWxrsfUAsd8voO8xW2/fcGTEU+dZJglvLVR/Y
+zwtTahWrEq4TJYDfA0S084J7lQwp4q1Owor5JzuMvgfTpaZlHSfmLJBWWCDOpC+X
+YOrtNoDI0QyRZsp5I8IJqDTNfyVqIx7WnJh41H6XYE6G7vpEx4Jx/re0Cc31odgG
+EEh8VNF8kyAELT/MkERESCD6qfoKqCHpXHvmMWqfcoRg/in2RUdymlBBt46WzNNA
+VQTYqSfLrne69FQ5eFqSsOewBpKILLyUEI6iv9uceyhSo7T2zL9wtNcjnxcoMNpC
+Axintm47pOgAPLT6RJvV3eePcQKZ2oGclDUUJkV955FaBOxK5JQLCg+vCwZINzwV
+9cGWZLjaWZeeC70o5E9pDJTvAahEjAzKGjeQphXNrhE4nOhy+I//P2L4ZdwV8Ujn
+uC2Y7PoTQkFjd6H2yQ3nTbaYkqR+o/8gf76v5XYWmxDqvbTM1gMdWWcFTAe9DbCx
+NwImDhzFyXXE+KOlAIVfuQBoAqx/cHWzApX5aTEb4PztForZlRE=
+=w6iC
+-----END PGP SIGNATURE-----
