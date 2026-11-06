@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: sid
+Components: main
+Date: Fri, 06 Nov 2026 21:09:44 +0000
+Label: Josh
+Origin: Josh
+Suite: unstable
+SHA256:
+ 77d8abfd5e9828f2d8e2c87404cb1d5433d9e7e5460d29ad22604f0b35816f2e            17722 main/binary-amd64/Packages
+ 42c163a229290166977e4675da9a3b1c522b5854d953becd0b8bb92e644e60a5             6537 main/binary-amd64/Packages.gz
+ 77d8abfd5e9828f2d8e2c87404cb1d5433d9e7e5460d29ad22604f0b35816f2e            17722 main/binary-arm64/Packages
+ 42c163a229290166977e4675da9a3b1c522b5854d953becd0b8bb92e644e60a5             6537 main/binary-arm64/Packages.gz
+SHA512:
+ 948cda319008544afc06c881aef03392191b9404bf4413e4ac81c1b60529429efad2c16ea703ff03b0c31c47a0a052d89978454c455cabda01bed47f49a52a72            17722 main/binary-amd64/Packages
+ 7bcd677d701bde994409c87337b0a0ddf886f1e8a55282840fe00023dd8185bab51ac065f905f2c4142d88d7e1ff723654d5db520b4f28ae1af35463f9f2361c             6537 main/binary-amd64/Packages.gz
+ 948cda319008544afc06c881aef03392191b9404bf4413e4ac81c1b60529429efad2c16ea703ff03b0c31c47a0a052d89978454c455cabda01bed47f49a52a72            17722 main/binary-arm64/Packages
+ 7bcd677d701bde994409c87337b0a0ddf886f1e8a55282840fe00023dd8185bab51ac065f905f2c4142d88d7e1ff723654d5db520b4f28ae1af35463f9f2361c             6537 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQSCYm11y33y+6u/rWHkGa6kzB7XlQUCau5CGAAKCRDkGa6kzB7X
+ladkAQDQReHodtloJ+gPyu6gK4zQCOAZgJIuQvdNova6LsOmPwEA5LsLUyCCV4/K
+SOsslKeZwko2lNALYThlw2T5gr1Ljw0=
+=tmtD
+-----END PGP SIGNATURE-----
